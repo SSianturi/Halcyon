@@ -1,0 +1,29 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "assalamu'alaikum", "salam", "how are you?"],
+    "responses": ["Hello!", "Wa'alaikumsalam", "how are you feeling?"],
+    "context": [""]
+    },
+     {"tag": "goodbye",
+    "patterns": ["bye", "that's all", "thank you", "assalamu'alaikum", "salam", "have a good day"],
+    "responses": ["Sad to see you go!", "Wa'alaikumsalam", "Goodbye!", "I hope it helps", "I will always be here"],
+    "context": [""]
+    },
+     {"tag": "great",
+    "patterns": ["feel good", "happy"],
+    "responses": ["That's great!", "That would be fun"],
+    "context": [""]
+    },
+     {"tag": "bad",
+    "patterns": ["sad", "not good", "don't feel good", "i feel down", "bad day", "stress"],
+    "responses": ["I am listening if you would to", "would you want to tell me?"],
+    "context": [""]
+    },
+    {"tag" 
+      : "bored",
+        "patterns": ["bored", "bored to death", "waery", "show me something", "wary"],
+        "responses": ["what can I do to entertain you?", "how can i help?"],
+        "context": [""]
+        }
+    ]
+}
